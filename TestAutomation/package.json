@@ -1,0 +1,17 @@
+{
+  "name": "syndio-cypress-automation",
+  "version": "1.0.0",
+  "description": "take-home-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "syndio": "npx cypress run --spec 'cypress/integration/e2e/**/*.js' --browser chrome",
+    "syndio-cross": "npm run syndio -- --browser chrome & npm run syndio -- --browser firefox & npm run syndio -- --browser edge"
+  },
+  "author": "Toby Chee",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.2",
+    "cypress": "^9.1.1"
+  }
+}
