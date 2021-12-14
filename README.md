@@ -1,3 +1,5 @@
+> ## To see Toby Chee's README for the assignment, please see at https://github.com/WizardOfFrontend/take_home/blob/main/TestAutomation/README.md 
+
 ## Overview
 
 For this QA technical take-home challenge, you will QA a simple Syndio dashboard. (Note that the dashboard has intentional issues.) This is not a timed exercise, but you should spend no more than 3 hours on your project.
